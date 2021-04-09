@@ -1,8 +1,33 @@
 // Assignment code here
-var alphabetLower = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-
 var generatePassword = function() {
+  var length = window.prompt("Enter a number between 8 and 128 to determine the length of your password:");
 
+    
+
+
+  var lowerCase = window.confirm("Do you want lower case letters in your password?");
+
+    if (lowerCase) {
+
+    } else {
+
+    };
+
+  var upperCase = window.confirm("Do you want upper case letters in your password?");
+    
+    if (upperCase) {
+
+    } else {
+
+    };
+
+  var numbersAndSpecialChar = window.confirm("Do you want numbers and/or special characters in your password?");
+
+    if (numbersAndSpecialChar) {
+
+    } else {
+
+    };
 
 };
 
