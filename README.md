@@ -8,3 +8,7 @@ An application that will allow users to create random passwords based off criter
 * Options include password length and whether the password contains, lower case letters, upper case letter, numbers and/or special characters.
 
 ## Link to Deployed Application:
+https://crossigarcia.github.io/pw-generator
+
+## Screenshot of Application
+![Password Generator Webpage](./assets/images/crossigarcia.github.io_pw-generator_.png)
