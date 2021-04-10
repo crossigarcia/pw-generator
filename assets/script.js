@@ -33,7 +33,6 @@ function generatePassword() {
 
   else {
     var userPassword = otherQuestions(userSelect, finalPw, length);
-    console.log(`userPassword = ${userPassword}`);
     return userPassword;
   }
 
@@ -63,10 +62,9 @@ function otherQuestions(userSelect, finalPw, length) {
   for (let i = 0; i < length; i++) {
     let index = Math.floor(Math.random() * userSelect.length - 1);
     let temp = userSelect[index];
-    finalPw.push(temp);
-    console.log(`length = ${length}`);
+    finalPw.push(temp);  
   }
-  console.log(`finalPw = ${finalPw}`);
+  
   return finalPw.join('');
 
 };
